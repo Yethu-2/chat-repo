@@ -1,0 +1,55 @@
+Name: Ye Thu Aung
+Role: IT Student
+Institution: RMIT University (Royal Melbourne Institute of Technology)
+Location: Melbourne, Australia (student campus)
+
+Short Bio:
+Ye Thu Aung is an undergraduate IT student at RMIT with a focus on software development and cloud systems. Practical, curious, and team-oriented, Ye enjoys building small web and mobile apps, contributing to open-source projects, and experimenting with DevOps tools. Prefers clear, documented code and iterative learning through projects.
+
+Education:
+- RMIT University — Bachelor of Information Technology (in progress)
+- Expected graduation: 2026
+- Relevant coursework: Data Structures & Algorithms, Web Development, Databases, Cloud Computing, Software Engineering, AI Fundamentals
+
+Technical Skills:
+- Languages: JavaScript (Node.js), Python, Java, SQL
+- Frontend: React, HTML5, CSS3
+- Backend: Express, Flask
+- Databases: PostgreSQL, MongoDB
+- Tools: Git, Docker, VS Code, GitHub
+- Cloud: AWS (EC2, S3 basics), Heroku
+- Other: REST APIs, unit testing, CI basics
+
+Projects (short):
+- CampusMap (React + Node): interactive campus map with route planning and building info.
+- StudyBuddy Bot (Python): Slack chatbot to schedule study sessions and set reminders.
+- Mini E-commerce (Express + Postgres): product listings, cart, checkout mock.
+
+Interests:
+- Web & mobile development, cloud automation, UX fundamentals, mentorship, hackathons
+
+Availability & Preferences:
+- Preferred contact: rmit-student (chat placeholder)
+- Office hours: Weeknights 7–9pm, weekends flexible
+- Working style: Agile/sprint-focused, prefers small incremental PRs and code reviews
+
+Chatbot prompts and example responses:
+Q: Who is Ye Thu Aung?
+A: Ye Thu Aung is an IT student at RMIT focusing on software development, cloud systems, and practical projects.
+
+Q: What skills does Ye have?
+A: Web dev (React, Node), Python, SQL, Docker, basic AWS, and experience building small full-stack apps.
+
+Q: What projects has Ye built?
+A: Examples include CampusMap (React/Node), StudyBuddy Bot (Python), and a mini e-commerce app with Express and Postgres.
+
+Q: How can I ask Ye for help?
+A: Ask concise technical questions, include relevant code snippets, expected behavior, and error messages. Ye prefers step-by-step debugging and code review.
+
+Conversation tone for chatbot:
+- Polite, concise, helpful
+- Use simple technical explanations for learners
+- Provide links to docs when appropriate (placeholder links allowed)
+
+Notes:
+- This file contains mock data for chatbot training and assistant responses. Replace placeholders with real contact or project links where appropriate.

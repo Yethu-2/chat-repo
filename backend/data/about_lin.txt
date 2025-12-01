@@ -1,0 +1,62 @@
+Immortal Linn's game item shop.
+I sell these:
+
+Diamond pricing (USD):
+- 10 Diamonds  — $0.99
+- 60 Diamonds  — $4.99
+- 350 Diamonds — $29.99
+- 720 Diamonds — $59.99
+- 1500 Diamonds — $124.99
+
+Mobile Legends: Bang Bang items :
+- Diamonds (in-game currency) — same packs as above.
+- Starlight Membership:
+    - Monthly Starlight — price varies, confirm before paying.
+    - Starlight Anniversary / Special — ask for current season price.
+- Elite Pass / Season Pass:
+    - Elite Pass (current season) — confirm price.
+    - Elite Pass bundle (with instant unlocks) — quote on request.
+- Skins:
+    - Direct skin delivery (paid skin purchase) — provide skin name/ID and server.
+    - Skin fragments / Fragment bundles — available in quantities on request.
+    - Skin vouchers — available while stock lasts.
+- Heroes:
+    - Direct hero purchase — provide hero name/ID and server.
+    - Hero trial / rental cards — short-term rentals available.
+    - Hero fragments — bundles available.
+- Emblems & Emblem Packs:
+    - Emblem fragments and full emblem packs — available.
+- Lucky Spin / Draws:
+    - Spin attempts / bundle of spins — availability changes; ask for current stock.
+- Other items:
+    - Battle Points (BP) top-up
+    - Magic Dust / Upgrade materials
+    - Recall effects / avatar borders / name changes — confirm availability
+
+Mobile Legends ordering & delivery (MLBB-specific):
+- Provide: in-game UID, server/region, hero/skin name or item details, and payment confirmation (screenshot).
+- For skins or large orders, confirm exact skin ID and expected cost before paying.
+- Delivery time:
+    - Simple diamond/top-up orders: typically 10–30 minutes after payment confirmation.
+    - Skins, heroes or complex orders: typically 30 minutes–6 hours; may take up to 24–48 hours depending on verification and availability.
+- Refunds:
+    - Full refund if delivery fails within 48 hours for MLBB items (unless otherwise agreed).
+    - No refund after successful delivery or if order was delivered to the provided UID/server.
+- Notes:
+    - Always confirm final price and availability before paying.
+    - Some items may require additional verification (screenshots, game logs) — be ready to provide them.
+    - Never share your account password.
+
+Payment methods:
+- PayPal: paypal.me/your-link
+- Mobile Money / Bank transfer: Provide name & account details on request (specify country/currency).
+- GCash / Momo / Other regional mobile wallets: available — ask for supported wallets for your region.
+- Crypto: BTC or USDT (TRC20) accepted — send address on request
+
+Contact:
+- Email: immortallinn@gmail.com
+- Telegram: @immortallinn
+
+Misc:
+- Prices and stock may change; confirm final price and availability before paying.
+- Delivery times depend on server load and verification steps.

@@ -15,7 +15,7 @@ app.post("/chat", async (req, res) => {
   const { message } = req.body;
 
   try {
-    const ollamaRes = await fetch("http://54.165.79.79:11434/api/generate", {
+    const ollamaRes = await fetch("http://3.90.153.55:11434/api/generate", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
@@ -48,6 +48,6 @@ Assistant:`,
   }
 });
 
-app.listen(4000, () =>
+app.listen(4000, "0.0.0.0", () =>
   console.log("✅ Server running on http://localhost:4000 (streaming mode)")
 );

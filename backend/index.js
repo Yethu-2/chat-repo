@@ -15,7 +15,7 @@ app.post("/chat", async (req, res) => {
   const { message } = req.body;
 
   try {
-    const ollamaRes = await fetch("http://3.90.153.55:11434/api/generate", {
+    const ollamaRes = await fetch("http://52.54.14.252:11434/api/generate", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({

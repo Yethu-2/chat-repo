@@ -3,10 +3,16 @@ const React = window.React;
 const { useState, createElement: h } = React;
 const ReactDOM = window.ReactDOM;
 
-const Chat = () => {
+// API Configuration - your EC2 instance
+const DEFAULT_API_URL = "http://3.209.56.118:4000/chat";
+
+const Chat = ({ apiUrl }) => {
   const [messages, setMessages] = useState([]);
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
+
+  // Use provided apiUrl or default
+  const chatApiUrl = apiUrl || DEFAULT_API_URL;
 
   const sendMessage = async () => {
     if (!input.trim()) return;
@@ -17,7 +23,7 @@ const Chat = () => {
     setLoading(true);
 
     try {
-      const response = await fetch("http://localhost:4000/chat", {
+      const response = await fetch(chatApiUrl, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ message: input }),
@@ -161,11 +167,14 @@ if (typeof document !== 'undefined') {
     const elements = document.querySelectorAll('[data-chat]');
     
     elements.forEach(element => {
+      // Get API URL from data attribute or use default
+      const apiUrl = element.getAttribute('data-api-url') || DEFAULT_API_URL;
+      
       if (ReactDOM.createRoot) {
         const root = ReactDOM.createRoot(element);
-        root.render(h(Chat));
+        root.render(h(Chat, { apiUrl }));
       } else {
-        ReactDOM.render(h(Chat), element);
+        ReactDOM.render(h(Chat, { apiUrl }), element);
       }
     });
   });
@@ -175,11 +184,17 @@ if (typeof document !== 'undefined') {
 if (typeof window !== 'undefined') {
   window.ChatWidget = {
     render: (element, props = {}) => {
+      // Default apiUrl if not provided
+      const config = {
+        apiUrl: DEFAULT_API_URL,
+        ...props
+      };
+      
       if (ReactDOM.createRoot) {
         const root = ReactDOM.createRoot(element);
-        root.render(h(Chat, props));
+        root.render(h(Chat, config));
       } else {
-        ReactDOM.render(h(Chat, props), element);
+        ReactDOM.render(h(Chat, config), element);
       }
     },
   };

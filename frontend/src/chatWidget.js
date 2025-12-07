@@ -4,7 +4,7 @@ const { useState, createElement: h } = React;
 const ReactDOM = window.ReactDOM;
 
 // API Configuration - your EC2 instance
-const DEFAULT_API_URL = "http://3.209.56.118:4000/chat";
+const DEFAULT_API_URL = "http://98.88.201.132:4000/chat";
 
 const Chat = ({ apiUrl }) => {
   const [messages, setMessages] = useState([]);

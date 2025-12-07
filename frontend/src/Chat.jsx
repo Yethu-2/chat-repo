@@ -1,5 +1,14 @@
 import React, { useState } from "react";
 
+// Use configurable API URL: browser will not reach localhost when deployed.
+const API_URL =
+  // Option 1: set at runtime, e.g., window.CHAT_API_URL = "https://your-domain.com/chat"
+  (typeof window !== "undefined" && window.CHAT_API_URL) ||
+  // Option 2: Vite env var at build time
+  import.meta.env.VITE_API_URL ||
+  // Fallback: EC2 public endpoint (adjust if you change hosts)
+  "http://98.88.201.132:4000/chat";
+
 const Chat = () => {
   const [messages, setMessages] = useState([]);
   const [input, setInput] = useState("");
@@ -14,7 +23,7 @@ const Chat = () => {
     setLoading(true);
 
     try {
-      const response = await fetch("http://localhost:4000/chat", {
+      const response = await fetch(API_URL, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ message: input }),
